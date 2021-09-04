@@ -1,0 +1,49 @@
+/* Tells the entire page to get rid of margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+:root {
+    --primColor: #b3ccff;
+    --secColor: #804d00;
+}
+
+/* Header Begin */
+header {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primColor);
+    height: 600px;
+    justify-content: space-around;
+}
+
+header h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--secColor);
+    padding: 7px;
+}
+
+header nav ul li a:hover {
+    background-color: var(--secColor);
+    color: var(--primColor);
+    padding: 7px;
+    border-radius: 2px;
+
+}

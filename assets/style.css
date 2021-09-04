@@ -47,3 +47,60 @@ header nav ul li a:hover {
     border-radius: 2px;
 
 }
+/* End Header */
+
+/* Start About Me */
+.about {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid var(--secColor);
+    border-bottom: 1px solid var(--secColor);
+}
+
+.about h2 {
+    padding: 20px;
+}
+
+.titlePic {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 400px;
+    margin: 20px 50px;
+    border: 1px solid black;
+    
+}
+
+.about p {
+    display: flex;
+    flex: wrap;
+    padding: 10%;
+    margin: 0 auto;
+    line-height: 1.3;
+    font-size: 16px;
+}
+/* End About Me */
+
+/* Start My Work */
+.work {
+    display: flex;
+    padding: 20px;
+    background-color: var(--primColor)
+}
+
+.all-work {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 35%;
+}
+
+.top-two {
+    display: flex;
+}
+
+.bottom-two {
+    display: flex;
+}

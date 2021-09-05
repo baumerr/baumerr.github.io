@@ -17,7 +17,7 @@ header {
     display: flex;
     flex-direction: column;
     background-color: var(--primColor);
-    height: 600px;
+    height: 700px;
     justify-content: space-around;
 }
 
@@ -38,6 +38,7 @@ header nav ul li a {
     text-decoration: none;
     color: var(--secColor);
     padding: 7px;
+    
 }
 
 header nav ul li a:hover {
@@ -45,6 +46,7 @@ header nav ul li a:hover {
     color: var(--primColor);
     padding: 7px;
     border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 
 }
 /* End Header */
@@ -87,7 +89,20 @@ img {
 .work {
     display: flex;
     padding: 20px;
-    background-color: var(--primColor)
+    background-color: var(--primColor);
+    height: 100%;
+    
+}
+
+.work a, h3, h4{
+    text-decoration: none;
+    padding-left: 5px;
+    color: black;
+    stroke-width: 2px;
+}
+
+.work h3 {
+    padding-top: 110px;
 }
 
 .all-work {
@@ -103,4 +118,96 @@ img {
 
 .bottom-two {
     display: flex;
+}
+
+.runBuddy {
+    background-image: url(./images/run-buddy.png);
+    background-repeat: no-repeat;
+    height: 304px;
+    width: 656px;
+    background-size: 100%;
+}
+
+.robot {
+    background-image: url(./images/robot-gladiators.png);
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 320px;
+    background-size: 100%;
+}
+
+.dylan-dave {
+    background-image: url(./images/dylan&dave.png);
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 320px;
+    background-size: 100%;
+}
+
+.top-two {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-two > a, .bottom-two > article {
+    margin: 8px;
+}
+
+.soon {
+    background-image: url(./images/this-is-where.jpg);
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 320px;
+    background-size:100%;
+    background-position: center;
+}
+
+.soon:hover {
+    background-image: url(./images/if-i-had-any.jpg);
+    background-repeat: no-repeat;
+    height: 170px;
+    width: 320px;
+    background-size: 100%;
+    background-position: center;
+}
+/* End of My Work */
+
+/* Start of Contact Me */
+.contact {
+    height: 120px;
+    padding: 20px;
+    border-top: 1px solid var(--secColor);
+    border-bottom: 1px solid var(--secColor);
+}
+
+section div ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+}
+
+section div ul li a {
+    text-decoration: none;
+    color: var(--secColor);
+    padding: 7px;
+    
+}
+
+section div ul li a:hover {
+    background-color: var(--primColor);
+    color: var(--secColor);
+    padding: 7px;
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Footer */
+footer{
+    background-color: var(--primColor);
+    height: 50px;
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid var(--secColor);
 }
